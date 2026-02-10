@@ -1,4 +1,22 @@
-#Outdated machine
+# Updated machine
+```
+kamal@Meors-MacBook-Pro aci % git branch 
+  main
+* main-a
+  main-b
+kamal@Meors-MacBook-Pro aci % git log --oneline
+413f1a3 (HEAD -> main-a, origin/main-a, origin/main, origin/HEAD, main) Create 03-get-tenant.py
+4141480 Create 03-get-tenant.py
+9a42c55 Create fabric-lists.txt
+df3335d (origin/adding-fab-dict) Create fabric-lists.txt
+6cd4d25 Create 01-test-login.py
+c133ebe Create 01-test-login.py
+e620993 Adding dir for REST api
+5b350eb Initial commit
+```
+
+
+# Outdated machine
 ```
 ansible@JUMP01:~/aci$ git branch
   main
@@ -48,23 +66,6 @@ From github.com:meorkamalmeorsulaiman/aci
  * branch            main-a     -> FETCH_HEAD
 Already up to date.
 ansible@JUMP01:~/aci$ git log --oneline
-413f1a3 (HEAD -> main-a, origin/main-a, origin/main, origin/HEAD, main) Create 03-get-tenant.py
-4141480 Create 03-get-tenant.py
-9a42c55 Create fabric-lists.txt
-df3335d (origin/adding-fab-dict) Create fabric-lists.txt
-6cd4d25 Create 01-test-login.py
-c133ebe Create 01-test-login.py
-e620993 Adding dir for REST api
-5b350eb Initial commit
-```
-
-# Updated machine
-```
-kamal@Meors-MacBook-Pro aci % git branch 
-  main
-* main-a
-  main-b
-kamal@Meors-MacBook-Pro aci % git log --oneline
 413f1a3 (HEAD -> main-a, origin/main-a, origin/main, origin/HEAD, main) Create 03-get-tenant.py
 4141480 Create 03-get-tenant.py
 9a42c55 Create fabric-lists.txt
