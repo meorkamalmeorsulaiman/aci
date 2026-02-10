@@ -17,6 +17,8 @@ e620993 Adding dir for REST api
 
 
 # Outdated machine
+
+Current branch `main-a` with commit `c813934` 
 ```
 ansible@JUMP01:~/aci$ git branch
   main
@@ -32,6 +34,10 @@ df3335d (origin/adding-fab-dict) Create fabric-lists.txt
 c133ebe Create 01-test-login.py
 e620993 Adding dir for REST api
 5b350eb Initial commit
+```
+
+Try to get the update
+```
 ansible@JUMP01:~/aci$ git pull origin main-a
 From github.com:meorkamalmeorsulaiman/aci
  * branch            main-a     -> FETCH_HEAD
@@ -47,8 +53,10 @@ df3335d (origin/adding-fab-dict) Create fabric-lists.txt
 c133ebe Create 01-test-login.py
 e620993 Adding dir for REST api
 5b350eb Initial commit
-ansible@JUMP01:~/aci$ git branch -D main-a
-error: cannot delete branch 'main-a' used by worktree at '/home/ansible/aci'
+```
+
+Quick fix is just to remove the outdated branch `main-a`
+```
 ansible@JUMP01:~/aci$ git branch
   main
 * main-a
@@ -58,6 +66,10 @@ Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
 ansible@JUMP01:~/aci$ git branch -D main-a
 Deleted branch main-a (was c813934).
+```
+
+Then create again with the updated commit
+```
 ansible@JUMP01:~/aci$ git checkout main-a
 branch 'main-a' set up to track 'origin/main-a'.
 Switched to a new branch 'main-a'
