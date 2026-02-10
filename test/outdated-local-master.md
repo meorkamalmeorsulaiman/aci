@@ -1,4 +1,5 @@
 #Outdated machine
+```
 ansible@JUMP01:~/aci$ git branch
   main
 * main-a
@@ -55,9 +56,10 @@ df3335d (origin/adding-fab-dict) Create fabric-lists.txt
 c133ebe Create 01-test-login.py
 e620993 Adding dir for REST api
 5b350eb Initial commit
+```
 
-
-#Updated machine
+# Updated machine
+```
 kamal@Meors-MacBook-Pro aci % git branch 
   main
 * main-a
@@ -71,4 +73,4 @@ df3335d (origin/adding-fab-dict) Create fabric-lists.txt
 c133ebe Create 01-test-login.py
 e620993 Adding dir for REST api
 5b350eb Initial commit
-
+```
